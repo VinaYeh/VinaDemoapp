@@ -10,7 +10,6 @@
 		202928F31F0BB70D0030ED8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202928F21F0BB70D0030ED8F /* AppDelegate.swift */; };
 		202928F51F0BB70D0030ED8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202928F41F0BB70D0030ED8F /* ViewController.swift */; };
 		202928F81F0BB70D0030ED8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202928F61F0BB70D0030ED8F /* Main.storyboard */; };
-		202928FA1F0BB70D0030ED8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202928F91F0BB70D0030ED8F /* Assets.xcassets */; };
 		202928FD1F0BB70D0030ED8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202928FB1F0BB70D0030ED8F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -19,9 +18,9 @@
 		202928F21F0BB70D0030ED8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		202928F41F0BB70D0030ED8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		202928F71F0BB70D0030ED8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		202928F91F0BB70D0030ED8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		202928FC1F0BB70D0030ED8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		202928FE1F0BB70D0030ED8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202929061F0BC6140030ED8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,7 @@
 				202928F21F0BB70D0030ED8F /* AppDelegate.swift */,
 				202928F41F0BB70D0030ED8F /* ViewController.swift */,
 				202928F61F0BB70D0030ED8F /* Main.storyboard */,
-				202928F91F0BB70D0030ED8F /* Assets.xcassets */,
+				202929061F0BC6140030ED8F /* Assets.xcassets */,
 				202928FB1F0BB70D0030ED8F /* LaunchScreen.storyboard */,
 				202928FE1F0BB70D0030ED8F /* Info.plist */,
 			);
@@ -123,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				202928FD1F0BB70D0030ED8F /* LaunchScreen.storyboard in Resources */,
-				202928FA1F0BB70D0030ED8F /* Assets.xcassets in Resources */,
 				202928F81F0BB70D0030ED8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Vina.com.Vina-Frist-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -287,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Vina.com.Vina-Frist-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
